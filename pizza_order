@@ -1,0 +1,23 @@
+print("Welcome to python pizza!")
+size = input("what pizza size do you want? s, m, or l\n")
+pepperoni_addon = input("do you want pepperoni? Y, or N\n")
+cheese_addon = input("do you want to add extra cheese? Y, or N\n")
+
+bill = 0
+if size == "s":
+  bill += 15
+elif size == "m":
+  bill += 20
+else:
+  size == "l"
+  bill += 25
+if pepperoni_addon == "y":
+  if size == "s":
+    bill += 2
+  else:
+    bill += 3
+if cheese_addon =="y":
+  bill += 1
+
+print(f"your final bill is {bill}")
+  
