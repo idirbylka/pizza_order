@@ -19,5 +19,5 @@ if pepperoni_addon == "y":
 if cheese_addon =="y":
   bill += 1
 
-print(f"your final bill is {bill}")
+print(f"your final bill is ${bill}")
   
